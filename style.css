@@ -1,0 +1,108 @@
+header{
+  text-align: center;
+}
+
+body{
+  background-color: #797796;
+}
+
+.score_board{
+  margin:0 auto;
+  width:450px;
+  height:200px;
+  background-color: #c3c0c0;
+  border-radius: 15px;
+  position:relative;
+  margin-top : 50px;
+  margin-bottom : 50px;
+}
+.score{
+  font-size:100px;
+  background-color:#c3c0c0;
+  width:200px;
+  height:160px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin: -80px 0 0 -100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 160px;
+  border-radius: 9px;
+}
+
+.badge_me{
+  text-align:center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #aaadaa;
+  width:80px;
+  height:80px;
+  position:absolute;
+  left:10px;
+  top:60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  border-radius: 20px;
+}
+
+.badge_com{
+  text-align: center;
+  font-weight: bold;
+  background-color: #aaadaa;
+  font-size: 30px;
+  width:80px;
+  height:80px;
+  position:absolute;
+  top:60px;
+  right:10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  border-radius: 20px;
+}
+.select_board{
+  text-align: center;
+}
+#result_msg{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#comselect{
+  width:188px;
+  height:188px;
+  background: url('img/rsp.png') 0 0;
+  display:inline-block;
+}
+
+.button_board{
+  text-align: center;
+  margin:50px;
+}
+
+.r{
+  width:100px;
+  height:50px;
+  background-color:#ff5722 ;
+  display:inline-block;
+  margin-right: 30px;
+}
+.s{
+  width:100px;
+  height:50px;
+  background-color: #673ab7;
+  display:inline-block;
+}
+.p{
+  width:100px;
+  height:50px;
+  background-color: yellow;
+  display:inline-block;
+  margin-left: 30px;
+}
+
+.button_board img{
+  width: 50px;
+}
